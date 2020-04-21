@@ -264,10 +264,10 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
 - (void)interceptApplication:(UIApplication *)application
 didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
-    NSString *deviceTokenString = [[[deviceToken description]
-                                    stringByTrimmingCharactersInSet:
-                                    [NSCharacterSet characterSetWithCharactersInString:@"<>"]]
-                                   stringByReplacingOccurrencesOfString:@" " withString:@""];
+    NSString *deviceTokenString = [[[[deviceToken description]
+                                     stringByReplacingOccurrencesOfString: @"<" withString: @""]
+                                     stringByReplacingOccurrencesOfString: @">" withString: @""]
+                                     stringByReplacingOccurrencesOfString: @" " withString: @""];
     
     AWSLogInfo(@"The device token: %@", deviceTokenString);
     

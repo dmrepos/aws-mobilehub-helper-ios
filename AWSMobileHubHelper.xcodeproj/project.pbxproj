@@ -118,7 +118,6 @@
 		70F38F7C2F450D13D1FBA3C5 /* libPods-AWSGoogleSignIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B2E7F3608696087FD2B64EB /* libPods-AWSGoogleSignIn.a */; };
 		7C858251DDF6E023CE6CBC24 /* libPods-AWSFacebookSignIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C5EAD47864BD67192E4805F /* libPods-AWSFacebookSignIn.a */; };
 		7E49724904AC97BE41583C3A /* libPods-AWSCognitoUserPoolsSignIn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BE02584691EB49163D3C28 /* libPods-AWSCognitoUserPoolsSignIn.a */; };
-		89C51081242C67867D93E195 /* libPods-TestSignInButtons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E3789245E4149CEC54AE49 /* libPods-TestSignInButtons.a */; };
 		C58113F776759AEFEFD44DD7 /* libPods-AWSMobileHubAuthorizers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 668CE705CF8533BDE3A4E6A6 /* libPods-AWSMobileHubAuthorizers.a */; };
 /* End PBXBuildFile section */
 
@@ -387,7 +386,6 @@
 		2C5EAD47864BD67192E4805F /* libPods-AWSFacebookSignIn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSFacebookSignIn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45AD5BB063E7E7D650BFC7FA /* Pods-AWSFacebookSignIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSFacebookSignIn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSFacebookSignIn/Pods-AWSFacebookSignIn.debug.xcconfig"; sourceTree = "<group>"; };
 		49ED9BEBE1E9DB5547D87078 /* Pods-AWSCognitoUserPoolsSignIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSCognitoUserPoolsSignIn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSCognitoUserPoolsSignIn/Pods-AWSCognitoUserPoolsSignIn.debug.xcconfig"; sourceTree = "<group>"; };
-		51E3789245E4149CEC54AE49 /* libPods-TestSignInButtons.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestSignInButtons.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		668CE705CF8533BDE3A4E6A6 /* libPods-AWSMobileHubAuthorizers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSMobileHubAuthorizers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69A76E7A0DB218A2452CE746 /* Pods-AWSGoogleSignIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSGoogleSignIn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSGoogleSignIn/Pods-AWSGoogleSignIn.debug.xcconfig"; sourceTree = "<group>"; };
 		7B2E7F3608696087FD2B64EB /* libPods-AWSGoogleSignIn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSGoogleSignIn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -397,13 +395,11 @@
 		A09A089ABB20234B7D304333 /* Pods-AWSMobileHubAuthorizers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSMobileHubAuthorizers.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSMobileHubAuthorizers/Pods-AWSMobileHubAuthorizers.release.xcconfig"; sourceTree = "<group>"; };
 		AD997DED6FE1A3C21E4CB7F8 /* Pods-AWSMobileHubAuthorizers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSMobileHubAuthorizers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSMobileHubAuthorizers/Pods-AWSMobileHubAuthorizers.debug.xcconfig"; sourceTree = "<group>"; };
 		B3EA1B7C4DAA1E2BB1B70928 /* Pods-AWSMobileHubHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSMobileHubHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSMobileHubHelper/Pods-AWSMobileHubHelper.debug.xcconfig"; sourceTree = "<group>"; };
-		C09661EED927EE9943B22800 /* Pods-TestSignInButtons.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSignInButtons.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestSignInButtons/Pods-TestSignInButtons.release.xcconfig"; sourceTree = "<group>"; };
 		C3EDB68804DFAC5F04A3648A /* Pods-AWSMobileHubHelperTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSMobileHubHelperTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSMobileHubHelperTest/Pods-AWSMobileHubHelperTest.release.xcconfig"; sourceTree = "<group>"; };
 		D0DFE1D907CFE3E37CF604FF /* libPods-AWSMobileHubHelperTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSMobileHubHelperTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A2F10EEB4863E65DBE8DCD /* Pods-AWSGoogleSignIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSGoogleSignIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSGoogleSignIn/Pods-AWSGoogleSignIn.release.xcconfig"; sourceTree = "<group>"; };
 		E7355F89C44787C9A5F07F84 /* Pods-AWSCognitoUserPoolsSignIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSCognitoUserPoolsSignIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSCognitoUserPoolsSignIn/Pods-AWSCognitoUserPoolsSignIn.release.xcconfig"; sourceTree = "<group>"; };
 		F313F95C1A385D20A08A0F20 /* libPods-AWSMobileHubHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWSMobileHubHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F681A0AC58451038FA9831AB /* Pods-TestSignInButtons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSignInButtons.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestSignInButtons/Pods-TestSignInButtons.debug.xcconfig"; sourceTree = "<group>"; };
 		FC1561923E381EC8B9FDB213 /* Pods-AWSFacebookSignIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSFacebookSignIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSFacebookSignIn/Pods-AWSFacebookSignIn.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -439,7 +435,6 @@
 				1739FDD51E9308D7007908FE /* QuartzCore.framework in Frameworks */,
 				1739FDD11E92FF41007908FE /* libAWSMobileHubHelper.a in Frameworks */,
 				1739FDD01E92FF3C007908FE /* libAWSGoogleSignIn.a in Frameworks */,
-				89C51081242C67867D93E195 /* libPods-TestSignInButtons.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -717,7 +712,6 @@
 				83BE02584691EB49163D3C28 /* libPods-AWSCognitoUserPoolsSignIn.a */,
 				D0DFE1D907CFE3E37CF604FF /* libPods-AWSMobileHubHelperTest.a */,
 				668CE705CF8533BDE3A4E6A6 /* libPods-AWSMobileHubAuthorizers.a */,
-				51E3789245E4149CEC54AE49 /* libPods-TestSignInButtons.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -739,8 +733,6 @@
 				C3EDB68804DFAC5F04A3648A /* Pods-AWSMobileHubHelperTest.release.xcconfig */,
 				AD997DED6FE1A3C21E4CB7F8 /* Pods-AWSMobileHubAuthorizers.debug.xcconfig */,
 				A09A089ABB20234B7D304333 /* Pods-AWSMobileHubAuthorizers.release.xcconfig */,
-				F681A0AC58451038FA9831AB /* Pods-TestSignInButtons.debug.xcconfig */,
-				C09661EED927EE9943B22800 /* Pods-TestSignInButtons.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -867,7 +859,6 @@
 				1739FD741E92F830007908FE /* Frameworks */,
 				1739FD751E92F830007908FE /* CopyFiles */,
 				1739FD9E1E92F89A007908FE /* Headers */,
-				211B7D04481D5E8AE8A4E6C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -882,12 +873,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1739FDC11E92FACF007908FE /* Build configuration list for PBXNativeTarget "TestSignInButtons" */;
 			buildPhases = (
-				3115B965A8C3CACC1F8D7C5D /* [CP] Check Pods Manifest.lock */,
 				1739FDA91E92FACF007908FE /* Sources */,
 				1739FDAA1E92FACF007908FE /* Frameworks */,
 				1739FDAB1E92FACF007908FE /* Resources */,
-				2D88F3331F58719F01E1A134 /* [CP] Embed Pods Frameworks */,
-				F7AAC623861F6C07CD34DB85 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -912,7 +900,6 @@
 				179348B61E82EB4100A779A6 /* Frameworks */,
 				179348B71E82EB4100A779A6 /* CopyFiles */,
 				1728990C1E82EC9500A072D8 /* Headers */,
-				66AE79DBD885F1CCD412F745 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -933,7 +920,6 @@
 				17F9B5681E81CA8E00B80A2D /* Frameworks */,
 				17F9B5691E81CA8E00B80A2D /* CopyFiles */,
 				17F9B57A1E81CB7900B80A2D /* Headers */,
-				6596592F464A59E4EF6D2225 /* [CP] Copy Pods Resources */,
 				175826C51E85B0FB00A667BA /* Resources */,
 			);
 			buildRules = (
@@ -979,7 +965,6 @@
 				17F9B5AA1E82088600B80A2D /* Frameworks */,
 				17F9B5AB1E82088600B80A2D /* CopyFiles */,
 				17F9B5BE1E820A7B00B80A2D /* Headers */,
-				B4F767A8E387E577AE90C9BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1000,7 +985,6 @@
 				1851DCEA1D25C5A30010B8AA /* Frameworks */,
 				1851DCEB1D25C5A30010B8AA /* CopyFiles */,
 				1851DD1C1D25CCE70010B8AA /* Headers */,
-				E70AB00DDA6652B541F1277A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1145,13 +1129,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWSCognitoUserPoolsSignIn-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1A737FE591F558B10F28BC25 /* [CP] Check Pods Manifest.lock */ = {
@@ -1160,73 +1147,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWSMobileHubHelper-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		211B7D04481D5E8AE8A4E6C3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSMobileHubAuthorizers/Pods-AWSMobileHubAuthorizers-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2D88F3331F58719F01E1A134 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestSignInButtons/Pods-TestSignInButtons-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3115B965A8C3CACC1F8D7C5D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		6596592F464A59E4EF6D2225 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSFacebookSignIn/Pods-AWSFacebookSignIn-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6698AC235946F877C34C2F1D /* [CP] Check Pods Manifest.lock */ = {
@@ -1235,28 +1165,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWSMobileHubAuthorizers-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		66AE79DBD885F1CCD412F745 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSCognitoUserPoolsSignIn/Pods-AWSCognitoUserPoolsSignIn-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		709AEFD46DA0C5A44EBE3D6C /* [CP] Check Pods Manifest.lock */ = {
@@ -1265,13 +1183,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWSSamlSignIn-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		835470475DE238CA1A2C12BC /* [CP] Copy Pods Resources */ = {
@@ -1295,13 +1216,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWSFacebookSignIn-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9DD86A3905358CBC45223422 /* [CP] Check Pods Manifest.lock */ = {
@@ -1310,58 +1234,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWSGoogleSignIn-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B4F767A8E387E577AE90C9BA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSSamlSignIn/Pods-AWSSamlSignIn-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E70AB00DDA6652B541F1277A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSMobileHubHelper/Pods-AWSMobileHubHelper-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F7AAC623861F6C07CD34DB85 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestSignInButtons/Pods-TestSignInButtons-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1649,7 +1531,6 @@
 		};
 		1739FDC21E92FACF007908FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F681A0AC58451038FA9831AB /* Pods-TestSignInButtons.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1665,7 +1546,6 @@
 		};
 		1739FDC31E92FACF007908FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C09661EED927EE9943B22800 /* Pods-TestSignInButtons.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
