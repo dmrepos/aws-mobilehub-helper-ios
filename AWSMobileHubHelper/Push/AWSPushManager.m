@@ -262,13 +262,23 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     return YES;
 }
 
++ (NSString *)stringFromDeviceToken:(NSData *)deviceToken {
+    NSUInteger length = deviceToken.length;
+    if (length == 0) {
+        return nil;
+    }
+    const unsigned char *buffer = deviceToken.bytes;
+    NSMutableString *hexString  = [NSMutableString stringWithCapacity:(length * 2)];
+    for (int i = 0; i < length; ++i) {
+        [hexString appendFormat:@"%02x", buffer[i]];
+    }
+    return [hexString copy];
+}
+
+
 - (void)interceptApplication:(UIApplication *)application
 didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
-    NSString *deviceTokenString = [[[[deviceToken description]
-                                     stringByReplacingOccurrencesOfString: @"<" withString: @""]
-                                     stringByReplacingOccurrencesOfString: @">" withString: @""]
-                                     stringByReplacingOccurrencesOfString: @" " withString: @""];
-    
+    NSString *deviceTokenString = [AWSPushManager stringFromDeviceToken:deviceToken];
     AWSLogInfo(@"The device token: %@", deviceTokenString);
     
     __weak AWSPushManager *weakSelf = self;
