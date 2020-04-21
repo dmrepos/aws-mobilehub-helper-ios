@@ -1,6 +1,0 @@
-framework module AWSSamlSignIn {
-    umbrella header "AWSSamlSignIn.h"
-    
-    export *
-    module * { export * }
-}
